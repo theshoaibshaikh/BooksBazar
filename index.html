@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BooksBazar buy/sell old books </title>
+<link rel="stylesheet" href="css/bootstrap.min.css"><!-- bootstrap-CSS -->
+<link rel="stylesheet" href="css/bootstrap-select.css"><!-- bootstrap-select-CSS -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- style.css -->
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /><!-- flexslider-CSS -->
+<link rel="stylesheet" href="css/font-awesome.min.css" /><!-- fontawesome-CSS -->
+<link rel="stylesheet" href="css/menu_sideslide.css" type="text/css" media="all"><!-- Navigation-CSS -->
+<!-- meta tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Gptians Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //meta tags -->
+<!--fonts-->
+<link href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+
+<!--post button-->
+<style>
+.buttoni {
+    background-color:#ff4c4c;
+	border: none;
+    color: white;
+	top: -15px;
+	left: 50px;	
+    padding: 9px 25px;
+    font-size: 18px;
+}
+.buttoni:hover {
+    background-color: #008CBA;
+    color: white;
+}
+</style>
+<style>
+.buttoni1 {
+    background-color:none;
+	border: none;
+    color: black;
+	top: -15px;
+	left: 50px;	
+    padding: 9px 25px;
+    font-size: 18px;
+}
+.buttoni1:hover {
+    background-color: #008CBA;
+    color: white;
+}
+.buttoni2 {
+
+    background: transparent;
+    border: none !important;
+	top: -15px;
+	left: 50px;	
+    padding: 4px 11px;
+    font-size: 15px;
+}
+</style>
+<!--//post button-->
+	
+</head>
+<body>	
+		<!-- Navigation -->
+		<div class="agiletopbar">
+			<div class="wthreenavigation">
+				<div class="menu-wrap">
+				<nav class="menu">
+					<div class="icon-list">
+						<a href="allfields.php"><i class="fa fa-fw fa-search-plus"></i><span>All Categories </span></a>
+						<a href="School.php"><i class="fa fa-fw fa-edit"></i><span>School </span></a>
+						<a href="Medical.php"><i class="fa fa-fw fa-plus-square"></i><span>Medical</span></a>
+						<a href="Engineering.php"><i class="fa fa-fw fa-gears"></i><span>Engineering</span></a>
+						<a href="History.php"><i class="fa fa-fw fa-h-square"></i><span>History</span></a>
+						<a href="Geology.php"><i class="fa fa-fw fa-globe"></i><span>Geology</span></a>
+						<a href="Zoology.php"><i class="fa fa-fw fa-paw"></i><span>Zoology</span></a>
+						<a href="Sports.php"><i class="fa fa-fw fa-book"></i><span>Sports</span></a>
+						<a href="Fashion.php"><i class="fa fa-fw fa-asterisk"></i><span>Fashion</span></a>
+						<a href="Kids.php"><i class="fa fa-fw fa fa-gamepad"></i><span>Kids</span></a>
+						<a href="Cookery.php"><i class="fa fa-fw fa fa-cutlery"></i><span>Cookery</span></a>
+						<a href="Novels.php"><i class="fa fa-fw fa-envira"></i><span>Novels</span></a>
+						<a href="Others.php"><i class="fa fa-fw fa-list-ul"></i><span>Others</span></a>
+					</div>
+				</nav>
+				<button class="close-button" id="close-button">Close Menu</button>
+			</div>
+			<button class="menu-button" id="open-button"> </button>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<!-- //Navigation -->
+	<!-- header -->
+	<header>
+		<div class="w3ls-header"><!--header-one--> 
+			<div class="w3ls-header-left">
+			</div>
+			<div class="w3ls-header-right">
+				<ul>
+					<li class="dropdown head-dpdn">
+						<a href="help.html"><i class="fa fa-question-circle" aria-hidden="true"></i> Help</a>
+					</li>
+					<li class="dropdown head-dpdn">
+						<div class="header-right">			
+	<!-- Large modal -->
+			<div class="selectregion">
+				<button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+				<i class="fa fa-globe" aria-hidden="true"></i>Select City</button>
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog"  
+					aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<!--<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+										&times;</button>
+								</div>-->
+								<div class="modal-body">
+									 <form class="form-horizontal" action="City.php" method="get">
+									 
+			 <!--********************************CITY SELECT CODE HERE ************************************************-->
+										
+										<div class="form-group">
+										<h4 class="modal-title" id="myModalLabel">
+										<button type="submit" class="buttoni1" name="submit" value="Get Selected Values" aria-label="Left Align">
+										<i class="fa fa-mail-reply-all" aria-hidden="true"> </i>
+									 </button>
+									 &nbsp;&nbsp;&nbsp;&nbsp;
+										Please Choose Your Location</h4>
+										<hr>
+											<select id="basic2" name="Color" class="show-tick form-control" multiple>
+												<optgroup label="Popular Cities">
+													<option selected style="display:none;color:#eee;">Select City</option>
+													<option value="Mumbai">Mumbai</option>
+													<option value="Byculla">Byculla</option>
+													<option value="Dadar">Dadar</option>
+													<option value="Kurla">Kurla</option>
+													<option value="Ghatkopar">Ghatkopar</option>
+													<option value="Thane">Thane</option>
+													<option value="Dombivali">Dombivali</option>
+													<option value="Kalyan">Kalyan</option>
+													<option value="Vashi">Vashi</option>
+													<option value="Nerul">Nerul</option>
+													<option value="Bandra">Bandra</option>
+													<option value="Mulund">Mulund</option>
+													<option value="Andheri">Andheri</option>
+													<option value="Panvel">Panvel</option>	
+												</optgroup>
+											</select>
+										</div>
+									  </form>    
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="clearfix"> </div> 
+		</div>
+		<div class="container">
+			<div class="agile-its-header">
+				<div class="logo">
+					<h1><a href="index.html"><span>Books</span>Bazar</a></h1>
+				</div>
+				<div class="agileits_search">
+					<form action="search_product.php" method="get">
+						<input name="SearchBook" type="text" placeholder="Search Book Here" required="" />
+						<button name="submit_title" class="btn btn-default" aria-label="Left Align">
+							<i class="fa fa-search" aria-hidden="true"> </i>
+						</button>
+					</form>
+				<a  href="post-ad.php">
+<input type="button" class="buttoni" value="Submit an AD">
+
+				</div>	
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</header>
+	<!-- //header -->
+	<!-- Slider -->
+		<div class="slider">
+			<ul class="rslides" id="slider">
+				<li>
+					<div class="w3ls-slide-text">
+						<h3>Sell or Advertise any Book online</h3>
+					</div>
+				</li>
+				<li>
+					<div class="w3ls-slide-text">
+						<h3>Find the Best Deals at Best Prices</h3>
+					</div>
+				</li>
+				<li>
+					<div class="w3ls-slide-text">
+						<h3>Find The Book of Your Choice</h3>
+					</div>
+				</li>
+				<li>
+					<div class="w3ls-slide-text">
+						<h3>The Easiest Way to get a Book</h3>
+
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- //Slider -->
+		<!-- content-starts-here -->
+		<div class="main-content">
+			<div class="w3-categories">
+				<h3>Browse Categories</h3>
+				<div class="container">
+					<div class="col-md-3">
+						<div class="focus-grid -boder1">
+							<a class="btn-8" href="School.php">
+								<div class="focus-border">
+									<div class="focus-layout">
+										<div class="focus-image"><i class="fa fa-edit"></i></div>
+										<h4 class="clrchg">School</h4>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="focus-grid -boder2">	
+						<a class="btn-8" href="Medical.php">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-plus-square"></i></div>
+									<h4 class="clrchg">Medical</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					</div>
+					<div class="col-md-3">
+					<div class="focus-grid -boder3">
+						<a class="btn-8" href="Engineering.php">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-gears"></i></div>
+									<h4 class="clrchg">Engineering</h4>
+								</div>
+							</div>
+						</a>
+					</div>	
+					</div>
+					<div class="col-md-3">
+					<div class="focus-grid -boder4">
+						<a class="btn-8" href="History.php">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-h-square"></i></div>
+									<h4 class="clrchg">History</h4>
+								</div>
+							</div>
+						</a>
+					</div>	
+					</div>
+					<div class="col-md-3">
+					<div class="focus-grid -boder5">
+						<a class="btn-8" href="Geology.php">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-globe"></i></div>
+									<h4 class="clrchg">Geology</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					</div>
+					<div class="col-md-3">
+					<div class="focus-grid -boder6">
+						<a class="btn-8" href="Zoology.php">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-paw"></i></div>
+									<h4 class="clrchg">Zoology</h4>
+								</div>
+							</div>
+						</a>
+					</div>	
+					</div>
+					<div class="col-md-3">
+					<div class="focus-grid -boder7">
+						<a class="btn-8" href="Sports.php">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-book"></i></div>
+									<h4 class="clrchg">Sports</h4>
+								</div>
+							</div>
+						</a>
+					</div>	
+					</div>
+					<div class="col-md-3">
+					<div class="focus-grid -boder8">
+						<a class="btn-8" href="Fashion.php">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-asterisk"></i></div>
+									<h4 class="clrchg">Fashion</h4>
+								</div>
+							</div>
+						</a>
+					</div>	
+					</div>
+					<div class="col-md-3">
+					<div class="focus-grid -boder9">
+						<a class="btn-8" href="Kids.php">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-gamepad"></i></div>
+									<h4 class="clrchg">Kids</h4>
+								</div>
+							</div>
+						</a>
+					</div>	
+					</div>
+					<div class="col-md-3">
+					<div class="focus-grid -boder10">
+						<a class="btn-8" href="Cookery.php">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-cutlery"></i></div>
+									<h4 class="clrchg">Cookery</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					</div>
+					<div class="col-md-3">
+					<div class="focus-grid -boder11">
+						<a class="btn-8" href="Novels.php">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-envira"></i></div>
+									<h4 class="clrchg">Novels</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					</div>
+					<div class="col-md-3">
+					<div class="focus-grid -boder12">
+						<a class="btn-8" href="Others.php">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-list-ul"></i></div>
+									<h4 class="clrchg">others</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<!--partners-->
+
+		<!-- mobile app -->
+			
+<footer>
+				<div class="w3-agileits-footer-top">
+					<div class="container">
+						<div class="wthree-foo-grids">
+							<div class="col-md-3 wthree-footer-grid">
+								<h4 class="footer-head">Who We Are</h4>
+								<p>A team of youngsters who developed a platform for buying and selling of old books.</p>
+							</div>
+							
+							<div class="col-md-3 wthree-footer-grid">
+								<h4 class="footer-head">Book Sold ?</h4>
+								<p>If the book has been sold and you want to delete an ad email us from the same email address which you used to post an ad. Write your book name in the subject.</p>
+							</div>
+							<div class="col-md-3 wthree-footer-grid">
+								<h4 class="footer-head">Information</h4>
+								<ul>
+									<li><a href="terms.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Terms of Use</a></li>
+									
+								</ul>
+							</div>
+							<div class="col-md-3 wthree-footer-grid">
+								<h4 class="footer-head">Contact Us</h4>
+								<span class="hq">Our Headquarters</span>
+								<address>
+									<ul class="location">
+										<li><span class="glyphicon glyphicon-map-marker"></span></li>&nbsp;&nbsp;&nbsp;Mumbai,Maharashtra,India
+									</ul>	
+									<div class="clearfix"> </div>
+									<ul class="location">
+										<li><span class="glyphicon glyphicon-earphone"></span></li>&nbsp;&nbsp;&nbsp;+91 720 8310 370
+									</ul>	
+									<div class="clearfix"> </div>
+									<ul class="location">
+										<li><span class="glyphicon glyphicon-envelope"></span></li>&nbsp;&nbsp;&nbsp;admin@booksbazar.club
+									</ul>						
+								</address>
+							</div>
+							<div class="clearfix"></div>
+						</div>						
+					</div>	
+				</div>	
+				<div class="agileits-footer-bottom text-center">
+				<div class="container">
+					<div class="w3-footer-logo">
+						<h1><a href="index.html"><span>Books</span>Bazar</a></h1>
+					</div>
+					<div class="w3-footer-social-icons">
+						
+					</div>
+					<div class="copyrights">
+						<p> © 2017 Gptians. All Rights Reserved | Design by SRPM <a href="http://.com/"> </a></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			</footer>
+		<!-- Navigation-Js-->
+			<script type="text/javascript" src="js/main.js"></script>
+			<script type="text/javascript" src="js/classie.js"></script>
+		<!-- //Navigation-Js-->
+		<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<!-- js -->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/bootstrap.js"></script>
+		<script src="js/bootstrap-select.js"></script>
+		<script>
+		  $(document).ready(function () {
+			var mySelect = $('#first-disabled2');
+
+			$('#special').on('click', function () {
+			  mySelect.find('option:selected').prop('disabled', true);
+			  mySelect.selectpicker('refresh');
+			});
+
+			$('#special2').on('click', function () {
+			  mySelect.find('option:disabled').prop('disabled', false);
+			  mySelect.selectpicker('refresh');
+			});
+
+			$('#basic2').selectpicker({
+			  liveSearch: true,
+			  maxOptions: 1
+			});
+		  });
+		</script>
+		<!-- language-select -->
+		<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+		<link href="css/jquery.uls.css" rel="stylesheet"/>
+		<link href="css/jquery.uls.grid.css" rel="stylesheet"/>
+		<link href="css/jquery.uls.lcd.css" rel="stylesheet"/>
+		<!-- Source -->
+		<script src="js/jquery.uls.data.js"></script>
+		<script src="js/jquery.uls.data.utils.js"></script>
+		<script src="js/jquery.uls.lcd.js"></script>
+		<script src="js/jquery.uls.languagefilter.js"></script>
+		<script src="js/jquery.uls.regionfilter.js"></script>
+		<script src="js/jquery.uls.core.js"></script>
+		<script>
+					$( document ).ready( function() {
+						$( '.uls-trigger' ).uls( {
+							onSelect : function( language ) {
+								var languageName = $.uls.data.getAutonym( language );
+								$( '.uls-trigger' ).text( languageName );
+							},
+							quickList: ['en', 'hi', 'he', 'ml', 'ta', 'fr'] //FIXME
+						} );
+					} );
+				</script>
+		<!-- //language-select -->
+		<script type="text/javascript" src="js/jquery.flexisel.js"></script><!-- flexisel-js -->	
+					<script type="text/javascript">
+						 $(window).load(function() {
+							$("#flexiselDemo3").flexisel({
+								visibleItems:1,
+								animationSpeed: 1000,
+								autoPlay: true,
+								autoPlaySpeed: 5000,    		
+								pauseOnHover: true,
+								enableResponsiveBreakpoints: true,
+								responsiveBreakpoints: { 
+									portrait: { 
+										changePoint:480,
+										visibleItems:1
+									}, 
+									landscape: { 
+										changePoint:640,
+										visibleItems:1
+									},
+									tablet: { 
+										changePoint:768,
+										visibleItems:1
+									}
+								}
+							});
+							
+						});
+					   </script>
+		<!-- Slider-JavaScript -->
+			<script src="js/responsiveslides.min.js"></script>	
+			 <script>
+			$(function () {	
+			  $("#slider").responsiveSlides({
+				auto: true,
+				pager: false,
+				nav: true,
+				speed: 500,
+				maxwidth: 800,
+				namespace: "large-btns"
+			  });
+
+			});
+		  </script>
+		<!-- //Slider-JavaScript -->
+		<!-- here stars scrolling icon -->
+			<script type="text/javascript">
+				$(document).ready(function() {
+					/*
+						var defaults = {
+						containerID: 'toTop', // fading element id
+						containerHoverID: 'toTopHover', // fading element hover id
+						scrollSpeed: 1200,
+						easingType: 'linear' 
+						};
+					*/
+										
+					$().UItoTop({ easingType: 'easeOutQuart' });
+										
+					});
+			</script>
+			<!-- start-smoth-scrolling -->
+			<script type="text/javascript" src="js/move-top.js"></script>
+			<script type="text/javascript" src="js/easing.js"></script>
+			<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					$(".scroll").click(function(event){		
+						event.preventDefault();
+						$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+					});
+				});
+			</script>
+			<!-- start-smoth-scrolling -->
+		<!-- //here ends scrolling icon -->
+</body>		
+</html>

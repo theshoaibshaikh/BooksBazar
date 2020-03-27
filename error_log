@@ -1,0 +1,90 @@
+[12-Mar-2018 16:44:13 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 16:44:13 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 16:44:44 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 16:44:44 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 16:44:50 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 16:44:50 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 16:48:45 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 16:48:45 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 16:48:47 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 16:48:47 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 16:48:48 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 16:48:48 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 16:48:50 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 16:48:50 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 16:48:53 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 16:48:53 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 17:01:10 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 17:01:10 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 17:02:23 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 17:02:23 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 17:07:46 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 17:07:46 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 17:15:24 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 17:15:24 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 17:17:43 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 17:17:43 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 17:51:31 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 17:51:31 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 17:51:51 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 17:51:51 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 17:52:39 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 17:52:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 18:01:38 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 18:01:38 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 18:29:10 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 18:29:10 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 18:29:24 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[12-Mar-2018 18:29:24 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[13-Mar-2018 03:01:20 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[13-Mar-2018 03:01:20 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[13-Mar-2018 03:21:07 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[13-Mar-2018 03:21:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[13-Mar-2018 03:21:07 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[13-Mar-2018 03:21:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[13-Mar-2018 03:21:17 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[13-Mar-2018 03:21:17 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[13-Mar-2018 15:38:16 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[13-Mar-2018 15:38:16 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[13-Mar-2018 15:38:19 UTC] PHP Warning:  require_once(mailerClass/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/booksbaz/public_html/mail.php on line 9
+[13-Mar-2018 15:38:19 UTC] PHP Fatal error:  require_once(): Failed opening required 'mailerClass/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/booksbaz/public_html/mail.php on line 9
+[14-Mar-2018 12:24:45 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/booksbaz/public_html/mail.php on line 4
+[14-Mar-2018 12:24:48 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/booksbaz/public_html/mail.php on line 4
+[14-Mar-2018 12:25:34 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/booksbaz/public_html/mail.php on line 4
+[14-Mar-2018 12:25:40 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/booksbaz/public_html/mail.php on line 4
+[14-Mar-2018 12:26:05 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/booksbaz/public_html/mail.php on line 4
+[14-Mar-2018 12:26:07 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/booksbaz/public_html/mail.php on line 4
+[14-Mar-2018 12:27:58 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/booksbaz/public_html/mail.php on line 4
+[14-Mar-2018 12:28:00 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/booksbaz/public_html/mail.php on line 4
+[14-Mar-2018 12:30:17 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/booksbaz/public_html/mail.php on line 4
+[14-Mar-2018 12:30:18 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/booksbaz/public_html/mail.php on line 4
+[14-Mar-2018 12:30:19 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/booksbaz/public_html/mail.php on line 4
+[14-Mar-2018 12:30:38 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/booksbaz/public_html/mail.php on line 4
+[14-Mar-2018 12:35:07 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/booksbaz/public_html/mail.php on line 4
+[14-Mar-2018 12:36:18 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/booksbaz/public_html/mail.php on line 4
+[14-Mar-2018 12:36:35 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/booksbaz/public_html/mail.php on line 4
+[14-Mar-2018 12:36:41 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/booksbaz/public_html/mail.php on line 4
+[15-Mar-2018 18:05:50 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/booksbaz/public_html/Engineering.php on line 573
+[15-Mar-2018 18:05:53 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/booksbaz/public_html/Engineering.php on line 573
+[15-Mar-2018 18:05:54 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/booksbaz/public_html/Engineering.php on line 573
+[16-Mar-2018 04:31:09 UTC] PHP Parse error:  syntax error, unexpected 'Email' (T_STRING) in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 04:31:17 UTC] PHP Parse error:  syntax error, unexpected 'Email' (T_STRING) in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 04:38:03 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 04:38:08 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 04:38:50 UTC] PHP Parse error:  syntax error, unexpected 'Email' (T_STRING) in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 04:38:51 UTC] PHP Parse error:  syntax error, unexpected 'Email' (T_STRING) in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 04:38:51 UTC] PHP Parse error:  syntax error, unexpected 'Email' (T_STRING) in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 04:38:57 UTC] PHP Parse error:  syntax error, unexpected 'Email' (T_STRING) in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 04:39:56 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 04:39:56 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 04:39:57 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 04:39:58 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 04:39:58 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 04:40:05 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 04:42:46 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 04:42:47 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 04:42:49 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/booksbaz/public_html/mail.php on line 6
+[16-Mar-2018 05:11:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/booksbaz/public_html/Sports.php on line 660
+[16-Mar-2018 05:11:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/booksbaz/public_html/Sports.php on line 660
+[16-Mar-2018 05:11:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/booksbaz/public_html/Sports.php on line 660
+[16-Mar-2018 17:25:36 UTC] PHP Fatal error:  Call to undefined function goback() in /home/booksbaz/public_html/mail.php on line 27
